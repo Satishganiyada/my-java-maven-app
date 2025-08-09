@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Create a image') {
             steps {
-               sh 'docker build -t aseem1 .'
+               sh 'docker build -t ayaan .'
             }
         }
         stage('Docker Container app') {
